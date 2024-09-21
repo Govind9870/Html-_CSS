@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming page</title>
+    <style>
+        .container{
+            background-color: beige;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            flex-direction: row;
+            /* flex-wrap: wrap; */
+            /* flex-flow: row; */
+            height: 800px;
+            /* justify-content: start; */
+            /* align-items: stretch; */
+            justify-content: start;
+            align-items: start; 
+            align-content: center;
+        }
+        .box{
+            /* height: 200px;
+            width: 200px; */
+            border: 2px solid black;
+            margin: 2px;
+            padding: 2px;
+        }
+        #box1{   
+            background-color: aqua;
+            text-align: center;
+            /* order: 50; */
+            /* flex-shrink: 4; */
+            /* flex-grow: 1; */
+            /* align-self: start; */
+        }
+        #box2{
+            background-color: burlywood;
+            text-align: center;
+            /* flex-grow: 1; */
+            /* align-self: center; */
+        }
+        #box3{
+            background-color: chocolate;
+            text-align: center;
+            /* flex-grow: 1; */
+            /* align-self: end; */
+        }
+        #box4{
+            background-color: blueviolet;
+            text-align: center;
+            /* flex-grow: 1; */
+            /* flex-basis: 400px; */
+            /* align-self: end; */
+        }
+        #box5{
+            background-color: chartreuse;
+            text-align: center;
+            /* order: -1; */
+            /* flex-grow: 1; */
+            /* align-self: center; */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box" id="box1">Box1</div>
+        <div class="box" id="box3">Box2</div>
+        <div class="box" id="box4">Box3</div>
+        <div class="box" id="box5">Box4</div>
+        <div class="box" id="box2">Box5</div>
+    </div>
+
+</body>
+</html>
